@@ -4,7 +4,7 @@ const thRoles = Object.freeze(new Map([
   ["row", "rowheader"],
   ["colgroup", "columngroupheader"],
   ["rowgroup", "rowgroupheader"],
-  [null, "columnheader"]
+  ["", "columnheader"]
 ]));
 
 export const addAriaToTable = function (table) {

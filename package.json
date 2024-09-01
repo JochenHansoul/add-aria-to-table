@@ -1,7 +1,7 @@
 {
   "name": "add-aria-to-table",
   "version": "1.0.0",
-  "description": "Add ARIA roles to an HTML table and the child elements inside of it. The exact roles (ELEMENT role) are: TABLE table; THEAD, TFOOT, TBODY rowgroup; TR row; TD cell; TH (with scope \\\"col\\\") columnheader; TH (with scope \\\"row\\\") rowheader; TH (with scope \\\"colgroup\\\") columngroupheader; TH (with scope \\\"rowgroup\\\") rowgroupheader; TH (without scope) columnheader. The function addAriaToAllTables can be used to add all these roles to every HTML table (default export) and the function addAriaToTable can be used to add the roles to a single table. Important: addAriaToTable argument must be a HTML table and may not be null.",
+  "description": "Add ARIA roles to an HTML table and the child elements inside of it.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

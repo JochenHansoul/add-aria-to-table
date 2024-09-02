@@ -11,9 +11,9 @@
     "url": "git+https://github.com/JochenHansoul/add-aria-to-table.git"
   },
   "keywords": [
-    "html",
+    "javascript",
+    "front-end",
     "table",
-    "responsive",
     "ARIA",
     "accessibility"
   ],

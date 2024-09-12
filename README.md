@@ -29,7 +29,7 @@ addAriaToAllTables();
 
 // Adding ARIA to a specific html table (may not be null).
 const table = document.querySelector("table");
-if (table != null) {
+if (table !== null) {
   addAriaToTable(table);
 }
 ```

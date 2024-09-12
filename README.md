@@ -19,10 +19,17 @@ Note:
 The table header cell elements (TH) may not contain the scope "auto" as no ARIA
 role can be inferred from this scope.
 
-## Functions
+## Usage
 
-The function addAriaToAllTables() can be used to add the previously mentioned
-roles to every HTML table in a document (default export) and the function
-addAriaToTable(table) can be used to add the ARIA roles to the specified HTML
-table. Important: addAriaToTable(table) argument must be a HTML table and may
-not be null.
+```js
+import { addAriaToAllTables, addAriaToTable } from "add-aria-to-table";
+
+// Adding ARIA to every html table.
+addAriaToAllTables();
+
+// Adding ARIA to a specific html table (may not be null).
+const table = document.querySelector("table");
+if (table != null) {
+  addAriaToTable(table);
+}
+```

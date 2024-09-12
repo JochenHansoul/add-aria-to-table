@@ -1,6 +1,6 @@
 {
   "name": "add-aria-to-table",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Add ARIA roles to an HTML table and the child elements inside of it.",
   "main": "index.js",
   "scripts": {

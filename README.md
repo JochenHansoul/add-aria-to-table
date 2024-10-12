@@ -27,7 +27,7 @@ role can be inferred from this scope.
 ## Usage
 
 ```js
-import { addAriaToAllTables, addAriaToTable } from "add-aria-to-table";
+import { addAriaToAllTables, addAriaToTable } from "./node_modules/add-aria-to-table/index.js";
 
 // Adding ARIA to every html table.
 addAriaToAllTables();

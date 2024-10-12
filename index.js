@@ -21,6 +21,6 @@ export const addAriaToTable = function (table) {
   });
 };
 
-export default const addAriaToAllTables = function () {
+export const addAriaToAllTables = function () {
   document.querySelectorAll("table").forEach(table => addAriaToTable(table));
 };

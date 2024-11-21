@@ -19,7 +19,7 @@
     "accessibility"
   ],
   "author": "Jochen Hansoul",
-  "license": "GPL-3.0",
+  "license": "LGPL-3.0",
   "bugs": {
     "url": "https://github.com/JochenHansoul/add-aria-to-table/issues"
   },

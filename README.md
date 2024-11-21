@@ -27,7 +27,8 @@ role can be inferred from this scope.
 ## Usage
 
 ```js
-import { addAriaToAllTables, addAriaToTable } from "./node_modules/add-aria-to-table/index.js";
+import { addAriaToAllTables, addAriaToTable }
+from "./node_modules/add-aria-to-table/index.js";
 
 // Adding ARIA to every html table.
 addAriaToAllTables();
@@ -38,7 +39,7 @@ if (table !== null) {
   addAriaToTable(table);
 }
 
-// Alternatively the addAriaToTable() function can also be used to add ARIA to
-// every HTML table.
+// Alternatively the addAriaToTable() function can also be used to
+// add ARIA to every HTML table.
 document.querySelectorAll("table").forEach(table => addAriaToTable(table));
 ```
